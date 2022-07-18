@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function sayHello() {
+            document.write("Say Hello<br>");
+            document.write("Say Hello<br>");
+            document.write("Say Hello<br>");
+            document.write("Say Hello<br>");
+        }
+        // 함수 호출
+        sayHello();
+        function f(x, k) {
+            var y = x+k;
+            if(y < 10) { // yのvalueが10より小さかったらメソッドを実行終了する。
+                return; 
+            }
+            return y;
+        }
+        var a = f(2, 1);
+        var b = f(9, 19);
+        var c = f(15, 14);
+        document.write("<h1>"+a+"</h1>");
+        document.write("<h1>"+b+"</h1>");
+        document.write("<h1>"+c+"</h1>");
+
+        function sum(x, y) {
+            var z = x+y;
+            return z;
+        }
+        function printResult(x, y) {
+            var result = sum(x, y);
+            document.write("<h1>"+result+"</h1>");
+        }
+        printResult(200,100);
+        
+    </script>
+</head>
+<body>
+</body>
+</html>
