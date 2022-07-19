@@ -1,0 +1,22 @@
+.box1 {
+    margin: 10px auto;
+    border: 5px solid #ccc;
+    padding: 30px;
+    text-align: center;
+}
+
+.box2 {
+    margin: 10px auto;
+    border: 10px solid #ff00ff;
+    padding: 25px;
+    text-align: left;
+    background-color: #ff0;
+}
+
+.box {
+    margin: 10px auto;
+    border: 10px solid #4fced7;
+    padding: 25px;
+    text-align: left;
+    background-color: rgb(132, 70, 190);
+}
