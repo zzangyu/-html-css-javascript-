@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>isNaN(Not a Number) 숫자인지 검사</title>
+    <script>
+        var a = Number("a"); // 숫자가 아니니까 NaN이 나온다.
+        document.write("<h1> a = "+ a + "</h1>");
+        var a_sum = a+1; // 문자+숫자 = 문자
+        document.write("<h1> a = "+ a_sum + "</h1>");
+        var a_str = a + "str";
+        document.write("<h1> a = "+ a_str + "</h1>");
+
+        var v1 = "가나다라";
+        var v2 = "123456";
+
+        var is_num1 = !isNaN(v1); //Not-A-Number
+        var is_num2 = !isNaN(v2);
+
+        document.write("<h1> a = "+ is_num1 + "</h1>");
+        document.write("<h1> a = "+ is_num2 + "</h1>");
+
+        if(is_num1) {
+            document.write("<h1> a = "+ v1 + "은(는) 숫자입니다.</h1>");
+        } else {
+            document.write("<h1> a = "+ v1 + "은(는) 숫자가 아닙니다.</h1>");
+
+        }
+        
+        if(is_num2) {
+            document.write("<h1> a = "+ v2 + "은(는) 숫자입니다.</h1>");
+        } else {
+            document.write("<h1> a = "+ v2 + "은(는) 숫자가 아닙니다.</h1>");
+
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

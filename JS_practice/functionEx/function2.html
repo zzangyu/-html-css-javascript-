@@ -7,9 +7,46 @@
     <title>Use JS file</title>
     <script>
         var str="100+1";
-        var result = eval(str); // String to Integer, 내장 함수
+        var result = eval(str); 
+        // String to Integer, 내장 함수
+        // eval: 문자열을 수식으로 변환해주는 함수
         document.write("<h1>"+str+"</h1>");
         document.write("<h1>"+result+"</h1>");
+
+        var value = "100";
+        var num1 = Number(value);
+        // Number(): 문자열 변수가 숫자모양일 경우 실제 숫자형으로 변환시킴
+        var num2 = parseInt(value);
+        // parseInt: 문자열 변수가 숫자모양일 경우 실제 숫자형으로 변환시킴
+
+        document.write("<h1>value: "+value+"</h1>");
+        document.write("<h1>num1: "+num1+"</h1>");
+        document.write("<h1>num2: "+num2+"</h1>");
+
+        var r1 = value+1; // 문자+숫자 -> 문자
+        var r2 = num1+1; // 숫자+숫자
+        var r3 = num2+1; // 숫자+숫자
+
+        document.write("<h1>r1: "+r1+"</h1>");
+        document.write("<h1>r2: "+r2+"</h1>");
+        document.write("<h1>r3: "+r3+"</h1>");
+
+        var value2 = "100.6";
+        var n1 = Number(value2);
+        var n2 = parseInt(value2);
+        var n3 = parseFloat(value2);
+
+        var result1 = value2+1;
+        var result2 = n1+1;
+        var result3 = n2+1;
+        var result4 = n3+1;
+
+        document.write("<h1>result1: "+result1+"</h1>");
+        document.write("<h1>result2: "+result2+"</h1>");
+        document.write("<h1>result3: "+result3+"</h1>");
+        document.write("<h1>result4: "+result4+"</h1>");
+
+
     </script>
 </head>
 <body>
