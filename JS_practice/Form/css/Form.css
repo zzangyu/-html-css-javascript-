@@ -1,0 +1,13 @@
+/* div 태그 폼 */
+body {
+    width: 400px;
+}
+.input_group {
+    height: 42px;
+    border-bottom: 1px dotted #ccc;
+    font: 1em/40px '궁서', 'Helvetica';
+}
+.input_group > label {
+    width: 80px;
+    display: inline-block;
+}
