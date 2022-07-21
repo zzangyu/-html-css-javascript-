@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/event.css">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/04.js"></script>
+    <title>Change Event</title>
+</head>
+
+<body>
+    <h1>Change Event</h1>
+    <div id="input">
+
+        <!-- 입력 박스 -->
+        <h3>이름</h3>
+        <input type="text" name="user_name">
+
+        <!-- 라디오 버튼-->
+        <h3>성별</h3>
+        <label><input type="radio" name="gender" id="M">남자</label>
+        <label><input type="radio" name="gender" id="F">여자</label>
+
+        <h3>직업</h3>
+        <select name="job">
+            <option value="deg">▶ 웹디자이너 ◀</option>
+            <option value="dev">▶ 프로그래머 ◀</option>
+            <option value="pub">▶ 웹퍼블리셔 ◀</option>
+            <option value="kikaku">▶ 웹기획 ◀</option>
+        </select>
+
+        <h3>취미: </h3>
+        <label><input type="checkbox" name="hobby" value="hobby">자기</label>
+        <label><input type="checkbox" name="hobby" value="hobby">먹기</label>
+        <label><input type="checkbox" name="hobby" value="hobby">싸기</label>
+    </div>
+
+    <h2>결과</h2>
+    <div id="result"></div>
+
+</body>
+
+</html>
