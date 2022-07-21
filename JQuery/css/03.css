@@ -1,0 +1,36 @@
+#container {
+    width: auto;
+    border: 5px solid #ff00ff;    
+    padding: 10px;
+}
+#container > #title {
+    background-color: #d5d5d5;
+    padding: 10px;
+}
+#container > .box {
+    padding: 10px;
+    background-color: #ffff00;
+    font: 20px '궁서체';
+}
+#container > ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    width: auto;
+    border: 5px solid #00ff00;
+}
+#container > ul > li:first-child, #container > ul > li:last-child { 
+    /* 첫번째, 마지막 li */
+    border: 3px dotted red;
+    padding: 3px 10px;
+}
+pre {
+    font: 14px/130% 'Courier New';
+    background-color: #fff;
+    padding: 10px 20px;
+    margin: 10px auto;
+    border: 1px solid #555;
+    border-radius: 20px;
+}
+
+

@@ -11,9 +11,10 @@ function initPage() {
 }
 jQuery(initPage);
 
+// 페이지가 열리면서 자동으로 실행되는 크로스 브라우징을 지원하는 코드
 $(function () {
     $("#hello").html("hihi");
-    alert($("hi").html())
+    alert($("hi").html());
 });
 
 
